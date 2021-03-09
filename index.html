@@ -10,6 +10,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 
+    <script src="https://kit.fontawesome.com/883d270fbf.js" crossorigin="anonymous"></script>
+
     <title>I Simpósio Online Maranhense de Bioinformática</title>
     <style>
         .cursos-botao {
@@ -22,20 +24,29 @@
             vertical-align: middle;
             border-right: 1px solid #dee2e6;
         }
+
+        @media (max-width: 900px) {
+            .banner-image {
+                object-fit: cover;
+                object-position: center;
+                width: 100%;
+                min-height: 300px;
+                margin-bottom: 1rem;
+            }
+        }
     </style>
 
 </head>
 
 <body>
-    <div class="d-flex flex-column justify-content-center pb-5" style="/*background: cornflowerblue;*/">
+    <div class="d-flex flex-column justify-content-center " style="/*background: cornflowerblue;*/">
 
         <div class="d-flex flex-row justify-content-center p-5 " style="">
             <p class="h1 display-4 fw-bold" style="color: #B6ADE8;">I Simpósio Online Maranhense de Bioinformática</p>
         </div>
 
         <div class="d-flex flex-row justify-content-center">
-            <img class="image-fluid w-100"
-                src="https://clubrunner.blob.core.windows.net/00000008602/Images/Kayako/2017-carousel/Partner-With-Us-Alt2.jpg">
+            <img class="image-fluid w-100 banner-image" src="banner.png">
         </div>
 
         <div class="d-flex flex-row justify-content-center p-4">
@@ -443,7 +454,8 @@
 
             <div class="row">
                 <div class="col-sm-6">
-                    <a class="card text-dark" style="background-color: #B6ADE8; text-decoration: none;" target="_blank" href="https://sis.sig.uema.br/sigaa/public/extensao/paginaListaPeriodosInscricoesAtividadesPublico.jsf?aba=p-extensao">
+                    <a class="card text-dark" style="background-color: #B6ADE8; text-decoration: none;" target="_blank"
+                        href="https://sis.sig.uema.br/sigaa/public/extensao/paginaListaPeriodosInscricoesAtividadesPublico.jsf?aba=p-extensao">
                         <div class="card-body">
                             <h5 class="card-title">Palestras</h5>
                             <p class="card-text">Clique para se inscrever nas palestras</p>
@@ -452,7 +464,8 @@
                 </div>
 
                 <div class="col-sm-6">
-                    <a class="card text-dark" style="background-color: #c8e6c9; text-decoration: none;" target="_blank" href="https://www.even3.com.br/1simob2021/">
+                    <a class="card text-dark" style="background-color: #c8e6c9; text-decoration: none;" target="_blank"
+                        href="https://www.even3.com.br/1simob2021/">
                         <div class="card-body">
                             <h5 class="card-title">Minicursos</h5>
                             <p class="card-text">Clique para se inscrever nos minicursos</p>
@@ -463,7 +476,51 @@
 
         </div>
 
+        <div class="p-5" style="background: #555">
+            <p class="h4 text-center text-light">Siga-nos nas nossas redes sociais :D</p>
+
+            <div class="row d-flex justify-content-center pt-3">
+                <div class="col-2">
+                    <a style="text-decoration: none;background-color: #FFFFFF; border-radius: 12px;"
+                        href="https://instagram.com/lipavet.uema" target="_blank"
+                        class="d-flex align-items-center justify-content-center text-dark">
+                        <div class="d-flex py-2 pl-5 pr-1">
+                            <i class="fab fa-2x	 fa-instagram"></i>
+
+                        </div>
+
+                        <div class="d-flex py-2 pr-5 m-2 text-dark fs-6"
+                            style="vertical-align: middle; text-align: center;">
+                            @lipavet.uema
+                        </div>
+                    </a>
+
+                </div>
+
+
+                <div class="col-2">
+                    <a style="text-decoration: none;background-color: #FFFFFF; border-radius: 12px;"
+                        class="d-flex align-items-center justify-content-center "
+                        href="https://t.me/joinchat/UoUzVxkelS4FmhHh" target="_blank">
+                        <div class="d-flex py-2 pl-5 pr-1 text-dark">
+                            <i class="fab fa-2x	 fa-telegram-plane"></i>
+
+                        </div>
+
+                        <div class="d-flex py-2 pr-5 m-2 text-dark fs-6"
+                            style="vertical-align: middle; text-align: center;">
+                            Grupo do telegram
+                        </div>
+                        </d>
+
+                </div>
+            </div>
+
+        </div>
+
+
     </div>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 
